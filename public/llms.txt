@@ -1,0 +1,79 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+חנות בשר בוטיק ישראל המובילה - קצבייה דליקטסן מקוונת עם חתכי בשר כשר מיוחדים שלא תמצאו במקום אחר. איכות פרמיום, מוצרים אקסקלוסיביים ותבלינים גורמה.
+
+### תקנים
+https://example.com/standards
+גלו את תקני הכשרות והאיכות המחמירים ביותר בישראל. בשר כשר מיוחד למסעדות יוקרתיים עם פיקוח צמוד ובחירה קפדנית של כל חתך. מצוינות ללא התפשרות.
+
+### גלריה
+https://example.com/gallery
+גלריית תמונות מרהיבה של חתכי הבשר הנדירים והמיוחדים שלנו. חנות בשר בוטיק ישראל עם מבחר ייחודי - צפו במוצרים האקסקלוסיביים שמחכים לכם.
+
+### צור קשר
+https://example.com/contact
+צרו קשר עם קצבייה דליקטסן מקוונת המובילה בישראל. הזמינו חתכי בשר נדירים, קבלו ייעוץ מקצועי ותיהנו ממוצרים אקסקלוסיביים עד הבית. נשמח לשרת אתכם.
+
+### Products
+https://example.com/products
+המוצרים שלנו - DIAMOND'S MEAT
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - DIAMOND'S MEAT
+
+### Category
+https://example.com/category/:slug
+מוצרים - DIAMOND'S MEAT
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
