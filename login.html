@@ -340,7 +340,7 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/business-logo.webp" alt="DIAMOND&#39;S MEAT" class="logo" />
+        <img src="/assets/diamond-s-meat-food-and-beverage-specialty-meats-logo-1773140836110-p5l2ix.webp?v=1773140836930-4pnuht" alt="DIAMOND&#39;S MEAT" class="logo" />
       </a>
     </div><ul class="nav-menu" id="navMenu">
 
@@ -398,7 +398,7 @@
   <div class="footer-container">
     <div class="footer-top">
       <div class="footer-column footer-about">
-        <img src="/assets/business-logo.webp" alt="DIAMOND&#39;S MEAT" class="logo" />
+        <img src="/assets/diamond-s-meat-food-and-beverage-specialty-meats-logo-1773140836110-p5l2ix.webp?v=1773140836930-4pnuht" alt="DIAMOND&#39;S MEAT" class="logo" />
         <p class="footer-description">מומחים בבשרים איכותיים ומעודנים. איכות ומצוינות בכל חתיכה.</p>
       </div>
       
@@ -626,8 +626,8 @@
       if(cm)cm.style.transition='background 0.3s ease,backdrop-filter 0.3s ease,-webkit-backdrop-filter 0.3s ease';
       var neSel='a,.navbar-brand,.navbar-brand a,.dropdown-toggle,.mobile-toggle,.phone-header-btn,.mobile-hamburger-btn,.mobile-close-btn,.mobile-submenu-toggle,.nav-link';
       var skipCls=['cart-link','login-link','nav-search-toggle','search-toggle'];
-      function sTC(c,clr){var els=c.querySelectorAll(neSel);for(var i=0;i<els.length;i++){var sk=false;for(var j=0;j<skipCls.length;j++){if(els[i].classList.contains(skipCls[j])){sk=true;break;}}if(!sk)els[i].style.setProperty('color',clr,'important');}}
-      function cTC(c){var els=c.querySelectorAll(neSel);for(var i=0;i<els.length;i++)els[i].style.removeProperty('color');}
+      function sTC(c,clr){var els=c.querySelectorAll(neSel);for(var i=0;i<els.length;i++){var sk=false;if(els[i].closest('.sub-menu')||els[i].closest('.dropdown-menu')){sk=true;}for(var j=0;j<skipCls.length;j++){if(els[i].classList.contains(skipCls[j])){sk=true;break;}}if(!sk)els[i].style.setProperty('color',clr,'important');}}
+      function cTC(c){var els=c.querySelectorAll(neSel);for(var i=0;i<els.length;i++){if(els[i].closest('.sub-menu')||els[i].closest('.dropdown-menu'))continue;els[i].style.removeProperty('color');}}
       function applyScrolled(){
         nb.classList.add('scrolled');
         if(window.innerWidth>768){
