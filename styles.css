@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap');
 
 /* Self-hosted fonts (Inter + Rubik for multi-language support) */
 
@@ -166,7 +166,9 @@
   --surface-color: #F9FAFB;
   --text-color: #4A4A4A;
   --text-secondary-color: #707070;
-}
+
+  --heading-font: 'Heebo', sans-serif;
+  --font-heading: 'Heebo', sans-serif;}
 
 * {
   margin: 0;
@@ -197,7 +199,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   color: var(--text-dark);
   letter-spacing: -0.02em;
 }
@@ -2273,7 +2275,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .index-story-section h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 34px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -2296,7 +2298,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .index-story-section h3 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 22px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -2483,7 +2485,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .index-showcase-section .index-showcase-header h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 48px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -2547,7 +2549,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .index-showcase-section .index-showcase-tile h3 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 22px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -2690,7 +2692,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .index-testimonials-header h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 34px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -2722,7 +2724,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .index-testimonials-card h3 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 22px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -2982,7 +2984,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .standards-intro-section .standards-intro-header h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 48px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -2993,7 +2995,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .standards-intro-section .standards-intro-header h3 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 22px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -3585,7 +3587,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .gallery-gallery-section h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
@@ -3780,7 +3782,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .gallery-editorial-feature-section .gallery-editorial-feature-text-container h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 48px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -3791,7 +3793,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .gallery-editorial-feature-section .gallery-editorial-feature-text-container h3 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 22px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -4211,7 +4213,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .contact-contact-section h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
@@ -4248,7 +4250,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .contact-contact-section .contact-contact-detail-item h3 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 22px;
   font-weight: 700;
   color: var(--primary);
@@ -4588,7 +4590,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .contact-hours-location-section .contact-hours-location-header h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 34px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -4599,7 +4601,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .contact-hours-location-section .contact-hours-location-header h3 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.55;
@@ -4627,7 +4629,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 .contact-hours-location-section .contact-hours-block h4,
 .contact-hours-location-section .contact-location-block h4 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 22px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -9440,7 +9442,6 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 /* /Zappy custom logo size */
-
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
